@@ -1,27 +1,11 @@
+<!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-<h2>MyDollar</h2>
-<br>
-<p> Version: <%=myDollarVersion%> </p>
-<% switch(page){
-    case "index" : %>
-            <br>
-            <h4> Index </h4>
-            <br>
-            <a href="/login">Login Here</a>
-            <br>
-<% break;
-    case "login" : %>
-            <br>
-            <h4> Login </h4>
-            <br>
-            <a href="/login">Howdy</a>
-            <br>
-<% break;
-    default: 
-    break;
-} %>
-</body>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </body>
 </html>

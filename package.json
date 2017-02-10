@@ -1,28 +1,17 @@
 {
   "name": "mydollar",
-  "version": "0.1.0",
-  "description": "myDollar is a financial planning app.",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ConflictingTheories/myDollar.git"
-  },
-  "author": "Kyle Derby MacInnis",
-  "license": "AGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/ConflictingTheories/myDollar/issues"
-  },
-  "homepage": "https://github.com/ConflictingTheories/myDollar#readme",
   "dependencies": {
-    "body-parser": "^1.16.0",
-    "compression": "^1.6.2",
-    "connect": "^3.5.0",
-    "connect-render": "^0.4.1",
-    "cookie-session": "^2.0.0-alpha.2",
-    "express": "^4.14.1",
-    "morgan": "^1.8.0"
+    "body-parser": "~1.16.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
   }
 }
